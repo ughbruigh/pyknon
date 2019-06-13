@@ -38,6 +38,12 @@ def gen_midi(filename, note_list):
   midi.seq_notes(note_list)
   midi.write("midi/" + filename)
 
+def gen_midi2(filename, notes1, notes2):
+  midi = Midi(number_tracks=2, tempo=90)
+  midi.seq_notes(notes1, track=0)
+  midi.seq_notes(notes2, track=1)
+  midi.write("midi/" + filename)
+
 def run():
   m = init_matrix()
   #print_matrix(m)
