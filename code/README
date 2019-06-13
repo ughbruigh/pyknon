@@ -1,0 +1,45 @@
+This is the source code used in the book Music for Geeks and Nerds.
+
+Directories
+-----------
+
+pyknon    a copy of the pyknon library
+midi      directory where the generated midi files are stored
+
+Data files
+----------
+
+canon-crab                      theme for the crab canon
+canon-quaerendo-invenietis      theme for the quaerendo invenietis canon
+josquin                         theme for Josquin's canon
+
+Source code sorted by chapter
+-----------------------------
+
+Chapter 3
+
+   simple-combination.py
+   plot_inversions.py
+
+Chapter 4
+
+   demo.py
+   ex-midi.py
+
+Chapter 5
+
+   random_combination.py
+   piano_phase.py
+   canon.py
+   josquin.py
+   scales.py
+
+Chapter 6
+
+   freq.py
+   just.py
+   tunings.py
+
+Chapter 7
+
+   abstractions.py
